@@ -46,7 +46,7 @@ nav {
     margin: .5em;
 }
 
-.btn { /*BS*/
+.btn { /*Bootstrap class*/
     border-radius: 0 !important;
 
 }
@@ -75,26 +75,20 @@ nav {
    
 }
 
-/*.title h1 span {
-    font-family: "shizuru";
-    font-size: 5rem;
-}*/
-
-
 .title h2 {
     padding-bottom: 1em;
-    font-size: 1.25rem;
 }
 
 .my-work-gallery {
     text-align: center;
 }
 
+
 .mycard > img {
     margin-left: auto;
     margin-right: auto;
 
-    border: .5px solid black;
+    border: .85px solid black;
 }
 
 .mycard h3 {
@@ -112,6 +106,11 @@ nav {
 .project-subtitle {
     font-size: medium;
     font-weight: 300 !important;
+}
+
+/*skills section*/
+.skills-section li {
+    padding: .35em;
 }
 
 .about p {

@@ -95,11 +95,12 @@ nav {
     font-size: 1.5em;
 }
 
-.mycard .btn-group {
-    margin: .25em 0 1em 0;
+.mycard .btn-group, .process-btn {
+    margin: 0;
 }
 
-.mycard .btn-group .btn {
+
+.mycard .btn-group .btn, .process-btn {
     padding: .1rem .5rem .1rem .5rem;
 }
 
@@ -113,7 +114,7 @@ nav {
     padding: .35em;
 }
 
-.about p {
+.about p, .my-work-secondary p {
     padding: 0 .75em 0 1em;
     margin: 0;
 }
@@ -198,6 +199,13 @@ nav {
         padding-bottom: .75em;
     }
 
-   
+    .process-btn {
+        border-top: 0;
+    }
 }
 
+@media screen and (min-width: 1280px) { /*xl (odd number)*/
+    .process-btn {
+        border: solid 1px #f8f9fa !important;
+    }
+}

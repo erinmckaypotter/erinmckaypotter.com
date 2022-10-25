@@ -199,9 +199,9 @@ nav {
         padding-bottom: .75em;
     }
 
-    .process-btn {
+    /*.process-btn {
         border-top: 0;
-    }
+    }*/
 }
 
 @media screen and (min-width: 1280px) { /*xl (odd number)*/

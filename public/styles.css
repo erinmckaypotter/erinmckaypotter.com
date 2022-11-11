@@ -95,6 +95,10 @@ nav {
     font-size: 1.5em;
 }
 
+.mycard .btn-group a {
+    font-size: 12.5px !important;
+}
+
 .mycard .btn-group, .process-btn {
     margin: 0;
 }

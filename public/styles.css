@@ -2,7 +2,7 @@
 
 body {
     width: 100vw;
-    background-color: #291e3f;
+    background-color: #2f2e2c;
     color: whitesmoke;
 
     font-family: "Roboto Mono";
@@ -15,11 +15,23 @@ a {
 }
 
 a:hover {
-    color: rgba(245, 245, 245, 0.541);
+    color: #EBD1D1;
 }
 
 section {
     padding: 0;
+}
+
+.navbar {
+    background-color: none;
+}
+
+.nav-item {
+    color: whitesmoke;
+}
+
+.nav-item:hover {
+    color: #EBD1D1;
 }
 
 nav {
@@ -28,8 +40,12 @@ nav {
     
 }
 
+.navbar-toggler {
+    color: whitesmoke !important;
+}
 .navbar-nav {
-    background-color: rgb(27, 20, 41) !important;
+    background-color: none;
+    color: whitesmoke;
 }
 
 .nav-bar-nav a i {
@@ -50,6 +66,7 @@ nav {
     border-radius: 0 !important;
 
 }
+
 
 .top-level.row {
     padding-right: 1em;
@@ -78,9 +95,10 @@ nav {
 .title h2 {
     padding-bottom: 1em;
 }
+*
 
 .my-work-gallery {
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -143,9 +161,9 @@ nav {
     font-style: italic;
 }
 
-/* || Media Queries */
+/* || Media Queries
 
-@media screen and (min-width: 768px) { /*md*/
+@media screen and (min-width: 768px) { /*md
     .title {
         padding: 3em 0 2em 0;
     }
@@ -168,7 +186,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 992px) { /*lg*/
+@media screen and (min-width: 992px) { /*lg
    nav {
         background-color: rgba(41, 30, 63, 0.74);
         width: 100vw;
@@ -205,10 +223,10 @@ nav {
 
     /*.process-btn {
         border-top: 0;
-    }*/
+    }
 }
 
-@media screen and (min-width: 1280px) { /*xl (odd number)*/
+@media screen and (min-width: 1280px) { /*xl (odd number)
     .process-btn {
         border: solid 1px #f8f9fa !important;
     }

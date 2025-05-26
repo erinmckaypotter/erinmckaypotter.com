@@ -9,6 +9,11 @@ body {
     font-weight: 300;
 }
 
+h3 {
+    font-weight:200;
+}
+
+
 a {
     color: whitesmoke;
     text-decoration: none;
@@ -87,21 +92,54 @@ nav {
 }
 
 .title h1 {
-    font-size: 4.5rem;
+    /*font-size: 4.5rem;*/
     font-family: 'Bebas Neue', monospace;;
+    color: #EBD1D1;
    
 }
 
 .title h2 {
     padding-bottom: 1em;
+    color: #EBD1D1;
 }
-*
+
+.title .btn {
+    color: #EBD1D1;
+    border: 1px solid #EBD1D1;
+}
+
+.title .btn:hover {
+    color: #2f2e2c;
+}
+
+/*hack of display-6 with button tag*/
+
+@media (min-width: 1200px) {
+    .title .btn {
+        font-size: 1.75rem;
+    }
+}
+
+.title .btn {
+    font-size: calc(1.3rem + .6vw);
+}
+
+svg {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:24px;  /* Use this if the outer box is a circle */
+/*    left:0;     /* Use this if the outer box is a square */
+    margin:auto;
+
+}
 
 .my-work-gallery {
     text-align: left;
 }
 
-
+/*
 .mycard > img {
     margin-left: auto;
     margin-right: auto;
@@ -126,6 +164,8 @@ nav {
     padding: .1rem .5rem .1rem .5rem;
 }
 
+*/
+
 .project-subtitle {
     font-size: medium;
     font-weight: 300 !important;
@@ -149,17 +189,27 @@ nav {
 /* "Get in Touch" title*/
 .contact {
     display: inline-block;
+    color:#EBD1D1
 }
 
 .icon { /*bottom of page*/
     padding: 1.5em .1em 1.5em .5em;
-    color: whitesmoke !important;
+    color: #EBD1D1 !important;
+}
+
+.contact .btn .icon:hover {
+    color:#2f2e2c !important;
 }
 
 /* || UTILITES*/
 .emphasis {
     font-style: italic;
 }
+
+.btn:hover {
+    background-color: #EBD1D1;
+}
+
 
 /* || Media Queries
 
@@ -230,4 +280,7 @@ nav {
     .process-btn {
         border: solid 1px #f8f9fa !important;
     }
+}
+
+  line-height: 1.2;
 }

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&family=Shizuru&display=swap' );
+
+body {
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, #E11FFF, #F24AC4, #FD4FD9, #EA715C);
+    color: whitesmoke;
+
+    font-family: "Roboto Mono";
+    font-weight: 300;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
